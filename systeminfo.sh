@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'Hello'
-OS='Deepin'
-echo "Linux_OS : ${OS}"
+OS='uname'
+echo "Linux_OS : $(${OS})"
 get_user_info(){
     uname -a
 }
